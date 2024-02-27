@@ -36,7 +36,7 @@ const questions = [
 
 // Function to write the file using the generateDocument function from document.js
 function writeToFile(data) {
-    const fileTitle = data.title
+    const fileTitle = data.text
     const document = generateSvg(data.text, data.textColor, data.shape, data.color);
 
     fs.writeFile(`./examples/${fileTitle}_logo.svg`, document, (err) => 
