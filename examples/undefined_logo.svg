@@ -1,0 +1,4 @@
+<svg width="250" height="250"> <circle cx="50" cy="50" r="40" fill="Blue" />
+<text x="50" y="60" fill="red" 
+font-size="30" text-anchor="middle">TDC</text>
+</svg>
